@@ -1,0 +1,18 @@
+[project]
+name = "project-cnn"
+version = "0.1.0"
+description = "Here, I will train a convolutional neural network"
+readme = "README.md"
+authors = [
+    { name = "EddyGiusepe", email = "eddychirinos.unac@gmail.com" }
+]
+requires-python = ">=3.13.7, <3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.1",
+]
+
+[tool.ruff]
+extend = "ruff.toml"
